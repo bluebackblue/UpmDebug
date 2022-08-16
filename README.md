@@ -13,14 +13,13 @@ MIT License
 ### エディター
 * https://github.com/bluebackblue/UpmDebug
 ### サンプル
-* https://github.com/bluebackblue/UpmDebug
 
 ## 動作確認
 Unity 2022.1.0b16
 
 ## UPM
 ### 最新
-* https://github.com/bluebackblue/UpmDebug.git?path=BlueBackDebug/Assets/UPM#0.0.2
+* https://github.com/bluebackblue/UpmDebug.git?path=BlueBackDebug/Assets/UPM#0.0.3
 ### 開発
 * https://github.com/bluebackblue/UpmDebug.git?path=BlueBackDebug/Assets/UPM
 

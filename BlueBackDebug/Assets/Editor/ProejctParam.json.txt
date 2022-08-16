@@ -26,7 +26,6 @@
 	"need_unity_version":"2020.1",
 	"asmdef_runtime":{
 		"define_constraint_list":[
-			"DEF_BLUEBACK_DEBUG"
 		],
 		"version_define_list":[
 		],
@@ -35,7 +34,6 @@
 	},
 	"asmdef_editor":{
 		"define_constraint_list":[
-			"DEF_BLUEBACK_DEBUG"
 		],
 		"version_define_list":[
 		],
@@ -50,7 +48,6 @@
 	},
 	"asmdef_sample":{
 		"define_constraint_list":[
-			"DEF_BLUEBACK_DEBUG"
 		],
 		"version_define_list":[
 		],
