@@ -13,7 +13,6 @@ MIT License
 ### エディター
 * https://github.com/bluebackblue/UpmDebug
 ### サンプル
-* https://github.com/bluebackblue/UpmDebug
 
 ## 動作確認
 Unity 2022.1.0b16
