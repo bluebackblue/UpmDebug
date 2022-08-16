@@ -1,0 +1,66 @@
+{
+	"namespace_author":"BlueBack",
+	"namespace_package":"Debug",
+	"git_url":"https://github.com/bluebackblue/UpmDebug",
+	"git_api":"https://api.github.com/repos/bluebackblue/UpmDebug",
+	"git_path":"BlueBackDebug/Assets/UPM",
+	"discription_simple":"デバッグ操作",
+	"discription_detal":[
+		"デバッグ操作",
+		"* ログ",
+		"* アサート",
+		""
+	],
+	"keyword":[
+		"debug"
+	],
+	"changelog":[
+		"# Changelog",
+		"",
+		"## [0.0.0] - 2022-08-16",
+		"### Changes",
+		"- Init",
+		""
+	],
+	"root_readmemd_path":"../../README.md",
+	"need_unity_version":"2020.1",
+	"asmdef_runtime":{
+		"define_constraint_list":[
+			"DEF_BLUEBACK_DEBUG"
+		],
+		"version_define_list":[
+		],
+		"reference_list":[
+		]
+	},
+	"asmdef_editor":{
+		"define_constraint_list":[
+			"DEF_BLUEBACK_DEBUG"
+		],
+		"version_define_list":[
+		],
+		"reference_list":[
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Debug",
+				"url":"https://github.com/bluebackblue/UpmDebug",
+				"define_package_pathname":"blueback.debug"
+			}
+		]
+	},
+	"asmdef_sample":{
+		"define_constraint_list":[
+			"DEF_BLUEBACK_DEBUG"
+		],
+		"version_define_list":[
+		],
+		"reference_list":[
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Debug",
+				"url":"https://github.com/bluebackblue/UpmDebug",
+				"define_package_pathname":"blueback.debug"
+			}
+		]
+	}
+}
