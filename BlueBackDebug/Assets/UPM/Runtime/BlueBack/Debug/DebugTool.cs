@@ -29,7 +29,7 @@ namespace BlueBack.Debug
 		/** assertproc
 		*/
 		#if(ASMDEF_TRUE)
-		public static BlueBack.Debug.Assert.ProcType assertproc = BlueBack.Debug.Assert.Default;
+		public static BlueBack.Debug.Assert.CallBackType assertproc = BlueBack.Debug.Assert.Execute;
 		#endif
 
 		/** Assert
@@ -61,7 +61,7 @@ namespace BlueBack.Debug
 		/** logproc
 		*/
 		#if(ASMDEF_TRUE)
-		public static BlueBack.Debug.Log.ProcType logproc = BlueBack.Debug.Log.Default;
+		public static BlueBack.Debug.Log.CallBackType logproc = BlueBack.Debug.Log.Execute;
 		#endif
 
 		/** Log
@@ -80,7 +80,7 @@ namespace BlueBack.Debug
 		/** detailproc
 		*/
 		#if(ASMDEF_TRUE)
-		public static BlueBack.Debug.Detail.ProcType detailproc = BlueBack.Debug.Detail.Default;
+		public static BlueBack.Debug.Detail.CallBackType detailproc = BlueBack.Debug.Detail.Execute;
 		#endif
 
 		/** Detail
@@ -99,13 +99,13 @@ namespace BlueBack.Debug
 		/** editorlogproc
 		*/
 		#if(ASMDEF_TRUE)
-		public static BlueBack.Debug.Log.ProcType editorlogproc = BlueBack.Debug.Log.Default;
+		public static BlueBack.Debug.Log.CallBackType editorlogproc = BlueBack.Debug.Log.Execute;
 		#endif
 
 		/** editorerrorlogproc
 		*/
 		#if(ASMDEF_TRUE)
-		public static BlueBack.Debug.ErrorLog.ProcType editorerrorlogproc = BlueBack.Debug.ErrorLog.Default;
+		public static BlueBack.Debug.ErrorLog.CallBackType editorerrorlogproc = BlueBack.Debug.ErrorLog.Execute;
 		#endif
 
 		/** EditorLog

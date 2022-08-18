@@ -1,1 +1,18 @@
-{"noEngineReferences":false,"versionDefines":[],"defineConstraints":[],"autoReferenced":true,"precompiledReferences":[],"overrideReferences":false,"allowUnsafeCode":false,"excludePlatforms":[],"includePlatforms":["Editor"],"references":[],"rootNamespace":"BlueBack.Debug.Editor","name":"BlueBack.Debug.Editor"}
+{
+    "name": "BlueBack.Debug.Editor",
+    "rootNamespace": "BlueBack.Debug.Editor",
+    "references": [
+        "GUID:c5730c3394f14fa4f833b225f6f48463"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
