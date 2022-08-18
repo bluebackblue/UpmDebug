@@ -3,17 +3,13 @@
 /**
 	Copyright (c) blueback
 	Released under the MIT License
-	@brief デバッグツール。自動生成。
+	@brief デバッグツール。
 */
 
 
 /** define
 */
-#if((ASMDEF_BLUEBACK_DEBUG||USERDEF_BLUEBACK_DEBUG))
 #define ASMDEF_TRUE
-#else
-#warning "ASMDEF_TRUE"
-#endif
 
 
 /** BlueBack.Debug

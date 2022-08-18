@@ -1,7 +1,8 @@
 # BlueBack.Debug
-xxxxx
-* xxxxx
-* xxxxx
+デバッグ操作
+* ログ
+* アサート
+
 
 ## ライセンス
 MIT License
@@ -10,6 +11,7 @@ MIT License
 ## 依存 / 使用ライセンス等
 ### ランタイム
 ### エディター
+* https://github.com/bluebackblue/UpmDebug
 ### サンプル
 
 ## 動作確認
