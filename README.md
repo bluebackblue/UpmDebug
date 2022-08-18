@@ -1,8 +1,7 @@
 # BlueBack.Debug
-デバッグ操作
-* ログ
-* アサート
-
+xxxxx
+* xxxxx
+* xxxxx
 
 ## ライセンス
 MIT License
@@ -11,7 +10,6 @@ MIT License
 ## 依存 / 使用ライセンス等
 ### ランタイム
 ### エディター
-* https://github.com/bluebackblue/UpmDebug
 ### サンプル
 
 ## 動作確認
@@ -19,7 +17,7 @@ Unity 2022.1.0b16
 
 ## UPM
 ### 最新
-* https://github.com/bluebackblue/UpmDebug.git?path=BlueBackDebug/Assets/UPM#0.0.4
+* https://github.com/bluebackblue/UpmDebug.git?path=BlueBackDebug/Assets/UPM#0.0.5
 ### 開発
 * https://github.com/bluebackblue/UpmDebug.git?path=BlueBackDebug/Assets/UPM
 

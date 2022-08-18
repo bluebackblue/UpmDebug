@@ -16,18 +16,16 @@ namespace BlueBack.Debug
 	*/
 	public static class Detail
 	{
-		/** Default
+		/** CallBackType
 		*/
-		public static void Default(string a_message)
-		{
-			if(a_message != null){
-				UnityEngine.Debug.Log(a_message);
-			}
-		}
+		public delegate void CallBackType(string a_message);
 
-		/** ProcType
+		/** Execute
 		*/
-		public delegate void ProcType(string a_message);
+		public static void Execute(string a_message)
+		{
+			UnityEngine.Debug.Log(a_message);
+		}
 	}
 }
 #endif
