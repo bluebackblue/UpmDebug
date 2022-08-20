@@ -19,6 +19,21 @@ namespace BlueBack.Debug.Samples.Simple
 		*/
 		private void Start()
 		{
+			#if(DEF_BLUEBACK_DEBUG_LOG)
+			BlueBack.Debug.Log.Execute("Log");
+			#endif
+
+			#if(DEF_BLUEBACK_DEBUG_DETAIL)
+			BlueBack.Debug.Detail.Execute("Detail");
+			#endif
+
+			#if(DEF_BLUEBACK_DEBUG_ERRORLOG)
+			BlueBack.Debug.ErrorLog.Execute("ErrorLog");
+			#endif
+
+			#if(DEF_BLUEBACK_DEBUG_ASSERT)
+			BlueBack.Debug.Assert.Execute("Assert",null);
+			#endif
 		}
 
 		/** OnDestroy

@@ -9,7 +9,7 @@
 
 /** BlueBack.Debug
 */
-#if(DEF_BLUEBACK_DEBUG_LOG)
+#if(DEF_BLUEBACK_DEBUG_ERRORLOG)
 namespace BlueBack.Debug
 {
 	/** ErrorLog

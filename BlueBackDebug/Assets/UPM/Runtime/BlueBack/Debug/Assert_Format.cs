@@ -3,13 +3,13 @@
 /**
 	Copyright (c) blueback
 	Released under the MIT License
-	@brief ログ。
+	@brief アサート。
 */
 
 
 /** BlueBack.Debug
 */
-#if(DEF_BLUEBACK_DEBUG_LOG)
+#if(DEF_BLUEBACK_DEBUG_ASSERT)
 namespace BlueBack.Debug
 {
 	/** Assert_Format

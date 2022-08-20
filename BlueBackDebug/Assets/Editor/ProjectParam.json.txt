@@ -52,6 +52,13 @@
 		"version_define_list":[
 		],
 		"reference_list":[
+			{
+				"rootnamespace":"BlueBack.Debug",
+				"readmemd_dependence_url":true,
+				"asmdef_reference_assembly":true,
+				"asmdef_version_define":true,
+				"package_dependence":false
+			}
 		]
 	},
 	"datalist":{

@@ -3,13 +3,13 @@
 /**
 	Copyright (c) blueback
 	Released under the MIT License
-	@brief ログ。
+	@brief 詳細。
 */
 
 
 /** BlueBack.Debug
 */
-#if(DEF_BLUEBACK_DEBUG_LOG)
+#if(DEF_BLUEBACK_DEBUG_DETAIL)
 namespace BlueBack.Debug
 {
 	/** Detail_Format

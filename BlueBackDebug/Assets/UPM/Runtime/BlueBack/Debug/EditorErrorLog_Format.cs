@@ -9,7 +9,7 @@
 
 /** BlueBack.Debug
 */
-#if(DEF_BLUEBACK_DEBUG_LOG)
+#if(UNITY_EDITOR)
 namespace BlueBack.Debug
 {
 	/** EditorErrorLog_Format
