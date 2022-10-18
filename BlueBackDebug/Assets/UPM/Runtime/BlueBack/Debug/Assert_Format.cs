@@ -39,7 +39,13 @@ namespace BlueBack.Debug
 		*/
 		public void Execute(string a_message,System.Exception a_exception)
 		{
-			this.callback(string.Format(this.format,a_message),a_exception);
+			string t_message;
+			if(a_message == null){
+				t_message = null;
+			}else{
+				t_message = string.Format(this.format,a_message);
+			}
+			this.callback(t_message,a_exception);
 		}
 	}
 }
